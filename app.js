@@ -167,3 +167,19 @@ Exercise 14:
 
 let num = numArrays[2][1];
 console.log('Exercise 14 Result:\n', num);
+/*
+Exercise 15:
+  - Given the above numArrays array, use nested forEach methods to sum up all the numbers contained within numArrays and assign to a variable named total.
+  - Hint: Be sure to declare and initialize the total variable before the iterations.
+*/
+
+// Complete Exercise 15 below...
+let total = 0;
+numArrays.forEach(function(numArr) {
+  numArr.forEach(function(num) {
+    total += num;
+  });
+});
+
+
+console.log('Exercise 15 Result:\n', total);
