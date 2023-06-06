@@ -38,3 +38,13 @@ Exercise 4:
 let favFood = foods[1];
 
 console.log('Exercise 4 Result:\n', favFood);
+/*
+Exercise 5:
+  - Insert the string 'tofu' in the foods array between 'pizza' & 'cheeseburger'
+*/
+
+// Complete Exercise 5 below...
+
+foods.splice("tofu", 0, 2);
+
+console.log('Exercise 5 Result:\n', foods);
