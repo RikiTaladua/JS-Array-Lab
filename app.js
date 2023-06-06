@@ -28,3 +28,13 @@ Exercise 3:
 foods.unshift("taco");
 
 console.log('Exercise 3 Result:\n', foods);
+/*
+Exercise 4:
+  - Access the string 'pizza' (based upon its known position) in the foods array and assign to a variable named favFood.
+*/
+
+// Complete Exercise 4 below...
+
+let favFood = foods[1];
+
+console.log('Exercise 4 Result:\n', favFood);
