@@ -116,3 +116,27 @@ nums.forEach(function(num) {
 });
 
 console.log('Exercise 11 Result:\n', odds);
+/*
+Exercise 12:
+  - Use the forEach method to iterate through the same nums array and add the number to **one** of the following arrays: fizz, buzz or fizzbuzz - based upon the following:
+        - Add to the fizzbuzz array if the number is evenly divisible by 3 & 5.
+        - Add to the fizz array if the number is evenly divisible by 3.
+        - Add to the buzz array if the number is evenly divisible by 5.
+*/
+
+// Complete Exercise 12 below...
+const fizz = [], buzz = [], fizzbuzz = [];
+nums.forEach(function(num) {
+  if (num % 15 === 0) {
+    fizzbuzz.push(num);
+  } else if (num % 3 === 0) {                  // <----- worked with classmates with this one. i could still use more reading material or practice with this one.
+    fizz.push(num);
+  } else if (num % 5 === 0) {
+    buzz.push(num);
+  }
+});
+
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
