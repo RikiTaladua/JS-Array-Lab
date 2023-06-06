@@ -79,3 +79,14 @@ Exercise 8:
 let soyIdx = foods.indexOf("tofu");
 
 console.log('Exercise 8 Result:\n', soyIdx);
+/*
+Exercise 9:
+  - Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string:
+    'taco -> sushi -> cupcake -> tofu -> cheeseburger'
+*/
+
+// Complete Exercise 9 below...
+
+const allFoods = foods.join(" -> ")
+
+console.log('Exercise 9 Result:\n', allFoods);
